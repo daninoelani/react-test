@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Profile from './components/Profile'
+import Profile from './components/Profile';
 import './App.css';
 
 class App extends Component {
@@ -15,6 +15,7 @@ class App extends Component {
     })
     .catch(console.log)
   }
+
 
   render () {
     return (
